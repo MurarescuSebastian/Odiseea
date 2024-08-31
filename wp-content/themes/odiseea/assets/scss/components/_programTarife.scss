@@ -1,0 +1,225 @@
+.programTarifSchool {
+  margin-top: 80px;
+
+  .programTarifSchoolWrapper {
+    .programTarifSchoolWrapper_cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 40px;
+      .programTarifSchoolWrapper_cards_card {
+        width: 500px;
+        box-shadow: 4px 0px 25px 0px rgba(0, 0, 0, 0.05);
+
+        .programTarifSchoolWrapper_cards_card_img {
+          img {
+            width: 100%;
+          }
+        }
+        .programTarifSchoolWrapper_cards_card_icon {
+          padding: 40px 40px 10px 40px;
+        }
+        .programTarifSchoolWrapper_cards_card_title {
+          padding: 0 40px;
+          font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+          font-size: 27px;
+          font-weight: 600;
+          color: #272626;
+        }
+        .programTarifSchoolWrapper_cards_card_content {
+          ul {
+            list-style: none;
+            padding: 40px;
+            li {
+              .programTarifSchoolWrapper_cards_card_content_text {
+                font-size: 22px;
+                font-weight: 700;
+                color: #272626;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.programTarifCosts {
+  margin-top: 40px;
+  margin-bottom: 80px;
+
+  .programTarifCostsWrapper {
+    display: flex;
+    justify-content: center;
+
+    .programTarifCostsWrapper_card {
+      box-shadow: 4px 0px 25px 0px rgba(0, 0, 0, 0.05);
+      padding: 20px;
+      width: 1060px;
+      text-align: center;
+
+      .programTarifCostsWrapper_card_title_1,
+      .programTarifCostsWrapper_card_title_2,
+      .programTarifCostsWrapper_card_title_3,
+      .programTarifCostsWrapper_card_title_4,
+      .programTarifCostsWrapper_card_title_5 {
+        font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        color: #272626;
+      }
+
+      .programTarifCostsWrapper_card_subtitle_1,
+      .programTarifCostsWrapper_card_subtitle_2,
+      .programTarifCostsWrapper_card_subtitle_3,
+      .programTarifCostsWrapper_card_subtitle_4,
+      .programTarifCostsWrapper_card_subtitle_5 {
+        font-family: "Open Sans", Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        color: #272626;
+      }
+
+      .programTarifCostsWrapper_card_title_1 {
+        margin-bottom: 60px;
+      }
+      .programTarifCostsWrapper_card_title_2 {
+        margin-bottom: 90px;
+      }
+      .programTarifCostsWrapper_card_subtitle_2 {
+        margin-bottom: 20px;
+      }
+
+      .programTarifCostsWrapper_card_title_3,
+      .programTarifCostsWrapper_card_title_4,
+      .programTarifCostsWrapper_card_title_5 {
+        margin-bottom: 20px;
+      }
+
+      .programTarifCostsWrapper_card_subtitle_3,
+      .programTarifCostsWrapper_card_subtitle_4,
+      .programTarifCostsWrapper_card_subtitle_5 {
+        margin-bottom: 70px;
+      }
+    }
+  }
+}
+
+// TODO here need combine these
+.programTarifServices {
+  background-color: #e8f2ff;
+  border-radius: 240px 0px 0px 0px;
+  padding: 80px 0;
+
+  .programTarifServicesWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+
+    .programTarifServicesWrapper_img {
+      min-width: 400px;
+      img {
+        width: 100%;
+        border-radius: 8px;
+      }
+    }
+
+    .programTarifServicesWrapper_content {
+      .programTarifServicesWrapper_content_icon {
+        margin-bottom: 20px;
+      }
+      .programTarifServicesWrapper_content_title {
+        font-size: 30px;
+        font-weight: 600;
+        color: #272626;
+        margin-bottom: 30px;
+      }
+      .programTarifServicesWrapper_content_text {
+        font-size: 16px;
+        font-weight: 400;
+        color: #272626;
+      }
+    }
+  }
+}
+
+.programTarifOptional {
+  background-color: #e8f2ff;
+  padding-bottom: 100px;
+
+  .programTarifOptionalWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+
+    .programTarifOptionalWrapper_img {
+      min-width: 400px;
+      img {
+        width: 100%;
+        border-radius: 8px;
+      }
+    }
+
+    .programTarifOptionalWrapper_content {
+      .programTarifOptionalWrapper_content_icon {
+        margin-bottom: 20px;
+      }
+      .programTarifOptionalWrapper_content_title {
+        font-size: 30px;
+        font-weight: 600;
+        color: #272626;
+        margin-bottom: 30px;
+      }
+      .programTarifOptionalWrapper_content_text {
+        font-size: 16px;
+        font-weight: 400;
+        color: #272626;
+      }
+    }
+  }
+}
+
+.programTarifCallNow {
+  background-color: $blue;
+  padding: 80px 0;
+  .programTarifCallNowWrapper {
+    text-align: center;
+
+    .programTarifCallNowWrapper_title {
+      color: #fff;
+      font-size: 44px;
+      font-weight: 600;
+    }
+    .programTarifCallNowWrapper_text {
+      font-size: 16px;
+      font-weight: 400;
+      color: #ffffff;
+    }
+    .programTarifCallNowWrapper_phone_link {
+      border: 2px solid #ffffff;
+      border-radius: 4px;
+      padding: 15px 30px;
+      font-size: 16px;
+      font-weight: 700;
+      background: $blue;
+      color: #ffffff;
+      margin-bottom: 80px;
+      display: flex;
+      width: 180px;
+      justify-content: center;
+      align-items: center;
+      margin: 10px auto;
+      text-decoration: none;
+      &:hover {
+        background: #ffffff;
+        color: $blue;
+      }
+    }
+  }
+}

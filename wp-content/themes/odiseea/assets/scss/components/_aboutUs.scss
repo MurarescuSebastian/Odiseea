@@ -1,0 +1,117 @@
+.aboutUsSunshineKids_marginTop {
+  padding-top: 80px;
+}
+.aboutUsSunshineKids_marginBottom {
+  padding-bottom: 80px;
+}
+.aboutUsSunshineKids {
+  .aboutUsSunshineKidsWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .aboutUsSunshineKidsWrapper_content {
+      padding: 40px;
+      width: 570px;
+
+      .aboutUsSunshineKidsWrapper_content_title {
+        font-size: 44px;
+        font-weight: 600;
+        color: #272626;
+      }
+      .aboutUsSunshineKidsWrapper_content_line {
+        height: 4px;
+        width: 80px;
+        background-color: $blue;
+        margin: 16px 0;
+      }
+      .aboutUsSunshineKidsWrapper_content_text {
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          color: #272626;
+        }
+      }
+    }
+
+    .aboutUsSunshineKidsWrapper_img {
+      width: 570px;
+    }
+  }
+}
+
+.aboutUsAfterSchool {
+  background-color: $blue;
+  border-radius: 240px 0px 0px 0px;
+  padding: 80px 0;
+
+  .aboutUsAfterSchoolWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .aboutUsAfterSchoolWrapper_title {
+      font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+      font-size: 44px;
+      font-weight: 600;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+    .aboutUsAfterSchoolWrapper_subTitle {
+      font-family: "Open Sans", Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #ffffff;
+      margin-bottom: 40px;
+    }
+    .aboutUsAfterSchoolWrapper_img {
+      img {
+        border-radius: 100px;
+      }
+    }
+  }
+}
+
+.homeCallNow {
+  .homeCallNowWrapper {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .homeCallNowWrapper_left {
+      .homeCallNowWrapper_left_title {
+        font-size: 25px;
+        font-weight: 900;
+        color: $blue;
+        font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+      }
+      .homeCallNowWrapper_left_subtitle {
+        font-size: 15px;
+        font-weight: 300;
+        color: $blue;
+        font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+      }
+    }
+
+    .homeCallNowWrapper_right {
+      .homeCallNowWrapper_right_phone {
+        .homeCallNowWrapper_right_phone_link {
+          font-size: 25px;
+          font-weight: 600;
+          text-transform: uppercase;
+          fill: #f5f5f5;
+          color: #f5f5f5;
+          background-color: $blue;
+          border-radius: 42px 42px 42px 42px;
+          padding: 15px 45px 15px 45px;
+          text-decoration: none;
+          span {
+          }
+        }
+      }
+    }
+  }
+}

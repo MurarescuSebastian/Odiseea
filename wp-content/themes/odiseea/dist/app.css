@@ -1,0 +1,823 @@
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px !important;
+}
+.header-navbar .nav-group {
+  display: flex;
+  align-items: center;
+}
+.header-navbar .nav-group ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.header-navbar .nav-group ul a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+.header-navbar .nav-group ul a:hover {
+  color: #284e95;
+}
+
+.homePageHeader {
+  position: relative;
+  background-color: transparent;
+  background-image: linear-gradient(140deg, #284e95 0%, #284e95 100%);
+  border-radius: 0px 0px 240px 0px;
+}
+.homePageHeader .homePageHeader_content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  padding: 120px 20px 120px 20px;
+}
+.homePageHeader .homePageHeader_content_title {
+  font-size: 75px;
+  line-height: 95px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.homePageHeader .homePageHeader_content_subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  line-height: 35px;
+  color: #fff;
+}
+.homePageHeader .homePageHeader_content_link {
+  width: 120px;
+}
+.homePageHeader .homePageHeader_content_link .homePageHeader_content_btn {
+  font-weight: 700;
+  color: #284e95;
+  background-color: #ffffff;
+  border: solid 2px #ffffff00;
+  border-radius: 4px;
+  width: 120px;
+  height: 50px;
+}
+.homePageHeader .homePageHeader_overlay {
+  background-image: url(../assets/img/homeimg.jpg);
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  border-radius: 0px 0px 240px 0px;
+}
+
+.programTarifSchool {
+  margin-top: 80px;
+}
+.programTarifSchool .programTarifSchoolWrapper .programTarifSchoolWrapper_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+.programTarifSchool .programTarifSchoolWrapper .programTarifSchoolWrapper_cards .programTarifSchoolWrapper_cards_card {
+  width: 500px;
+  box-shadow: 4px 0px 25px 0px rgba(0, 0, 0, 0.05);
+}
+.programTarifSchool .programTarifSchoolWrapper .programTarifSchoolWrapper_cards .programTarifSchoolWrapper_cards_card .programTarifSchoolWrapper_cards_card_img img {
+  width: 100%;
+}
+.programTarifSchool .programTarifSchoolWrapper .programTarifSchoolWrapper_cards .programTarifSchoolWrapper_cards_card .programTarifSchoolWrapper_cards_card_icon {
+  padding: 40px 40px 10px 40px;
+}
+.programTarifSchool .programTarifSchoolWrapper .programTarifSchoolWrapper_cards .programTarifSchoolWrapper_cards_card .programTarifSchoolWrapper_cards_card_title {
+  padding: 0 40px;
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  color: #272626;
+}
+.programTarifSchool .programTarifSchoolWrapper .programTarifSchoolWrapper_cards .programTarifSchoolWrapper_cards_card .programTarifSchoolWrapper_cards_card_content ul {
+  list-style: none;
+  padding: 40px;
+}
+.programTarifSchool .programTarifSchoolWrapper .programTarifSchoolWrapper_cards .programTarifSchoolWrapper_cards_card .programTarifSchoolWrapper_cards_card_content ul li .programTarifSchoolWrapper_cards_card_content_text {
+  font-size: 22px;
+  font-weight: 700;
+  color: #272626;
+}
+
+.programTarifCosts {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.programTarifCosts .programTarifCostsWrapper {
+  display: flex;
+  justify-content: center;
+}
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card {
+  box-shadow: 4px 0px 25px 0px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  width: 1060px;
+  text-align: center;
+}
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_title_1,
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_title_2,
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_title_3,
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_title_4,
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_title_5 {
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #272626;
+}
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_subtitle_1,
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_subtitle_2,
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_subtitle_3,
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_subtitle_4,
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_subtitle_5 {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #272626;
+}
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_title_1 {
+  margin-bottom: 60px;
+}
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_title_2 {
+  margin-bottom: 90px;
+}
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_subtitle_2 {
+  margin-bottom: 20px;
+}
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_title_3,
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_title_4,
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_title_5 {
+  margin-bottom: 20px;
+}
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_subtitle_3,
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_subtitle_4,
+.programTarifCosts .programTarifCostsWrapper .programTarifCostsWrapper_card .programTarifCostsWrapper_card_subtitle_5 {
+  margin-bottom: 70px;
+}
+
+.programTarifServices {
+  background-color: #e8f2ff;
+  border-radius: 240px 0px 0px 0px;
+  padding: 80px 0;
+}
+.programTarifServices .programTarifServicesWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 100px;
+}
+.programTarifServices .programTarifServicesWrapper .programTarifServicesWrapper_img {
+  min-width: 400px;
+}
+.programTarifServices .programTarifServicesWrapper .programTarifServicesWrapper_img img {
+  width: 100%;
+  border-radius: 8px;
+}
+.programTarifServices .programTarifServicesWrapper .programTarifServicesWrapper_content .programTarifServicesWrapper_content_icon {
+  margin-bottom: 20px;
+}
+.programTarifServices .programTarifServicesWrapper .programTarifServicesWrapper_content .programTarifServicesWrapper_content_title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #272626;
+  margin-bottom: 30px;
+}
+.programTarifServices .programTarifServicesWrapper .programTarifServicesWrapper_content .programTarifServicesWrapper_content_text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #272626;
+}
+
+.programTarifOptional {
+  background-color: #e8f2ff;
+  padding-bottom: 100px;
+}
+.programTarifOptional .programTarifOptionalWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 100px;
+}
+.programTarifOptional .programTarifOptionalWrapper .programTarifOptionalWrapper_img {
+  min-width: 400px;
+}
+.programTarifOptional .programTarifOptionalWrapper .programTarifOptionalWrapper_img img {
+  width: 100%;
+  border-radius: 8px;
+}
+.programTarifOptional .programTarifOptionalWrapper .programTarifOptionalWrapper_content .programTarifOptionalWrapper_content_icon {
+  margin-bottom: 20px;
+}
+.programTarifOptional .programTarifOptionalWrapper .programTarifOptionalWrapper_content .programTarifOptionalWrapper_content_title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #272626;
+  margin-bottom: 30px;
+}
+.programTarifOptional .programTarifOptionalWrapper .programTarifOptionalWrapper_content .programTarifOptionalWrapper_content_text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #272626;
+}
+
+.programTarifCallNow {
+  background-color: #284e95;
+  padding: 80px 0;
+}
+.programTarifCallNow .programTarifCallNowWrapper {
+  text-align: center;
+}
+.programTarifCallNow .programTarifCallNowWrapper .programTarifCallNowWrapper_title {
+  color: #fff;
+  font-size: 44px;
+  font-weight: 600;
+}
+.programTarifCallNow .programTarifCallNowWrapper .programTarifCallNowWrapper_text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.programTarifCallNow .programTarifCallNowWrapper .programTarifCallNowWrapper_phone_link {
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  background: #284e95;
+  color: #ffffff;
+  margin-bottom: 80px;
+  display: flex;
+  width: 180px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  text-decoration: none;
+}
+.programTarifCallNow .programTarifCallNowWrapper .programTarifCallNowWrapper_phone_link:hover {
+  background: #ffffff;
+  color: #284e95;
+}
+
+.homeOptions {
+  padding-top: 40px;
+}
+.homeOptions .homeOptionsWrapper {
+  background-color: #e8f2ff;
+  padding: 10px 0;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.homeOptions .homeOptionsWrapper .homeOptionsWrapper_itemGroup {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  gap: 10px;
+}
+.homeOptions .homeOptionsWrapper .homeOptionsWrapper_itemGroup .homeOptionsWrapper_itemGroup_itemImg {
+  padding: 8px;
+  background: #fff;
+  border-radius: 50%;
+}
+.homeOptions .homeOptionsWrapper .homeOptionsWrapper_itemGroup .homeOptionsWrapper_itemGroup_itemText {
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 1px;
+}
+
+.homeAfterSchool .homeAfterSchoolWrapper .homeAfterSchoolWrapper_title {
+  font-size: 42px;
+  font-weight: 600;
+  color: #272626;
+}
+.homeAfterSchool .homeAfterSchoolWrapper .homeAfterSchoolWrapper_line {
+  height: 4px;
+  width: 80px;
+  background-color: #284e95;
+  margin: 16px 0;
+}
+.homeAfterSchool .homeAfterSchoolWrapper .homeAfterSchoolWrapper_contentGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.homeAfterSchool .homeAfterSchoolWrapper .homeAfterSchoolWrapper_contentGroup .homeAfterSchoolWrapper_contentGroup_left p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.homeAfterSchool .homeAfterSchoolWrapper .homeAfterSchoolWrapper_contentGroup .homeAfterSchoolWrapper_contentGroup_left ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.homeAfterSchool .homeAfterSchoolWrapper .homeAfterSchoolWrapper_contentGroup .homeAfterSchoolWrapper_contentGroup_left ul li {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.homeAfterSchool .homeAfterSchoolWrapper .homeAfterSchoolWrapper_contentGroup .homeAfterSchoolWrapper_contentGroup_left ul li div {
+  font-size: 16px;
+  font-weight: 700;
+  color: #272626;
+  margin: 10px 0;
+}
+.homeAfterSchool .homeAfterSchoolWrapper .homeAfterSchoolWrapper_contentGroup .homeAfterSchoolWrapper_contentGroup_right {
+  width: 530px;
+  height: 560px;
+}
+
+.homeAboutUs {
+  background-color: #284e95;
+  padding: 80px 0;
+}
+.homeAboutUs .homeAboutUsWrapper {
+  text-align: center;
+}
+.homeAboutUs .homeAboutUsWrapper .homeAboutUsWrapper_title {
+  color: #fff;
+  font-size: 44px;
+  font-weight: 600;
+}
+.homeAboutUs .homeAboutUsWrapper .homeAboutUsWrapper_line {
+  height: 4px;
+  width: 80px;
+  background-color: #ffffff;
+  margin: 16px auto;
+}
+.homeAboutUs .homeAboutUsWrapper .homeAboutUsWrapper_link .homeAboutUsWrapper_btn {
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  background: #fff;
+  color: #284e95;
+  margin-bottom: 80px;
+}
+.homeAboutUs .homeAboutUsWrapper .homeAboutUsWrapper_link .homeAboutUsWrapper_btn:hover {
+  background: #284e95;
+  color: #ffffff;
+}
+.homeAboutUs .homeAboutUsWrapper .homeAboutUsWrapper_text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.homeVideo {
+  background-color: #e8f2ff;
+  padding: 80px 0;
+}
+.homeVideo .homeVideoWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.homeWhyUs {
+  background-color: #eff6ff;
+  padding: 80px 0;
+}
+.homeWhyUs .homeWhyUsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.homeWhyUs .homeWhyUsWrapper .homeWhyUsWrapperCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+.homeWhyUs .homeWhyUsWrapper .homeWhyUsWrapperCards .homeWhyUsWrapperCards_left .homeWhyUsWrapperCards_left_card {
+  padding: 20px;
+  width: 340px;
+}
+.homeWhyUs .homeWhyUsWrapper .homeWhyUsWrapperCards .homeWhyUsWrapperCards_left .homeWhyUsWrapperCards_left_card .homeWhyUsWrapperCards_left_card_title {
+  margin-bottom: 20px;
+  color: #272626;
+  font-size: 44px;
+  font-weight: 600;
+}
+.homeWhyUs .homeWhyUsWrapper .homeWhyUsWrapperCards .homeWhyUsWrapperCards_left .homeWhyUsWrapperCards_left_card .homeWhyUsWrapperCards_left_card_text {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.homeWhyUs .homeWhyUsWrapper .homeWhyUsWrapperCards .homeWhyUsWrapperCards_left .homeWhyUsWrapperCards_left_card .homeWhyUsWrapperCards_left_card_img {
+  margin-bottom: 40px;
+}
+.homeWhyUs .homeWhyUsWrapper .homeWhyUsWrapperCards .homeWhyUsWrapperCards_left .homeWhyUsWrapperCards_left_card .homeWhyUsWrapperCards_left_card_img img {
+  width: 100%;
+}
+.homeWhyUs .homeWhyUsWrapper .homeWhyUsWrapperCards .homeWhyUsWrapperCards_center .homeWhyUsWrapperCards_center_card {
+  padding: 40px;
+  width: 327px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+.homeWhyUs .homeWhyUsWrapper .homeWhyUsWrapperCards .homeWhyUsWrapperCards_center .homeWhyUsWrapperCards_center_card .icon_blue_dark {
+  background-color: #0b1e68;
+}
+.homeWhyUs .homeWhyUsWrapper .homeWhyUsWrapperCards .homeWhyUsWrapperCards_center .homeWhyUsWrapperCards_center_card .icon_blue_light {
+  background-color: #0043e8;
+}
+.homeWhyUs .homeWhyUsWrapper .homeWhyUsWrapperCards .homeWhyUsWrapperCards_center .homeWhyUsWrapperCards_center_card .homeWhyUsWrapperCards_center_card_icon {
+  padding: 8px;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homeWhyUs .homeWhyUsWrapper .homeWhyUsWrapperCards .homeWhyUsWrapperCards_center .homeWhyUsWrapperCards_center_card .homeWhyUsWrapperCards_center_card_title {
+  margin-bottom: 20px;
+  color: #272626;
+  font-size: 44px;
+  font-weight: 600;
+}
+.homeWhyUs .homeWhyUsWrapper .homeWhyUsWrapperCards .homeWhyUsWrapperCards_center .homeWhyUsWrapperCards_center_card .homeWhyUsWrapperCards_center_card_text {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.homeParents {
+  background-color: #284e95;
+  padding: 80px 0;
+}
+.homeParents .homeParentsWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.homeParents .homeParentsWrapper .homeParentsWrapper_title {
+  font-size: 42px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.homeParents .homeParentsWrapper .homeParentsWrapper_line {
+  height: 4px;
+  width: 80px;
+  background-color: #ffffff;
+  margin: 16px auto;
+}
+.homeParents .homeParentsWrapper .homeParentsWrapper_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+.homeParents .homeParentsWrapper .homeParentsWrapper_cards .homeParentsWrapper_cards_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+}
+.homeParents .homeParentsWrapper .homeParentsWrapper_cards .homeParentsWrapper_cards_card .homeParentsWrapper_cards_card_text {
+  font-size: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.homeParents .homeParentsWrapper .homeParentsWrapper_cards .homeParentsWrapper_cards_card .homeParentsWrapper_cards_card_icon {
+  margin-bottom: 20px;
+}
+.homeParents .homeParentsWrapper .homeParentsWrapper_cards .homeParentsWrapper_cards_card .homeParentsWrapper_cards_card_name {
+  font-size: 19px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.homeCallNow .homeCallNowWrapper {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.homeCallNow .homeCallNowWrapper .homeCallNowWrapper_left .homeCallNowWrapper_left_title {
+  font-size: 25px;
+  font-weight: 900;
+  color: #284e95;
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+}
+.homeCallNow .homeCallNowWrapper .homeCallNowWrapper_left .homeCallNowWrapper_left_subtitle {
+  font-size: 15px;
+  font-weight: 300;
+  color: #284e95;
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+}
+.homeCallNow .homeCallNowWrapper .homeCallNowWrapper_right .homeCallNowWrapper_right_phone .homeCallNowWrapper_right_phone_link {
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  fill: #f5f5f5;
+  color: #f5f5f5;
+  background-color: #284e95;
+  border-radius: 42px 42px 42px 42px;
+  padding: 15px 45px 15px 45px;
+  text-decoration: none;
+}
+.homeMaps iframe {
+  width: 100%;
+}
+
+.aboutUsSunshineKids_marginTop {
+  padding-top: 80px;
+}
+
+.aboutUsSunshineKids_marginBottom {
+  padding-bottom: 80px;
+}
+
+.aboutUsSunshineKids .aboutUsSunshineKidsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.aboutUsSunshineKids .aboutUsSunshineKidsWrapper .aboutUsSunshineKidsWrapper_content {
+  padding: 40px;
+  width: 570px;
+}
+.aboutUsSunshineKids .aboutUsSunshineKidsWrapper .aboutUsSunshineKidsWrapper_content .aboutUsSunshineKidsWrapper_content_title {
+  font-size: 44px;
+  font-weight: 600;
+  color: #272626;
+}
+.aboutUsSunshineKids .aboutUsSunshineKidsWrapper .aboutUsSunshineKidsWrapper_content .aboutUsSunshineKidsWrapper_content_line {
+  height: 4px;
+  width: 80px;
+  background-color: #284e95;
+  margin: 16px 0;
+}
+.aboutUsSunshineKids .aboutUsSunshineKidsWrapper .aboutUsSunshineKidsWrapper_content .aboutUsSunshineKidsWrapper_content_text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #272626;
+}
+.aboutUsSunshineKids .aboutUsSunshineKidsWrapper .aboutUsSunshineKidsWrapper_img {
+  width: 570px;
+}
+
+.aboutUsAfterSchool {
+  background-color: #284e95;
+  border-radius: 240px 0px 0px 0px;
+  padding: 80px 0;
+}
+.aboutUsAfterSchool .aboutUsAfterSchoolWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutUsAfterSchool .aboutUsAfterSchoolWrapper .aboutUsAfterSchoolWrapper_title {
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.aboutUsAfterSchool .aboutUsAfterSchoolWrapper .aboutUsAfterSchoolWrapper_subTitle {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.aboutUsAfterSchool .aboutUsAfterSchoolWrapper .aboutUsAfterSchoolWrapper_img img {
+  border-radius: 100px;
+}
+
+.homeCallNow .homeCallNowWrapper {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.homeCallNow .homeCallNowWrapper .homeCallNowWrapper_left .homeCallNowWrapper_left_title {
+  font-size: 25px;
+  font-weight: 900;
+  color: #284e95;
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+}
+.homeCallNow .homeCallNowWrapper .homeCallNowWrapper_left .homeCallNowWrapper_left_subtitle {
+  font-size: 15px;
+  font-weight: 300;
+  color: #284e95;
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+}
+.homeCallNow .homeCallNowWrapper .homeCallNowWrapper_right .homeCallNowWrapper_right_phone .homeCallNowWrapper_right_phone_link {
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  fill: #f5f5f5;
+  color: #f5f5f5;
+  background-color: #284e95;
+  border-radius: 42px 42px 42px 42px;
+  padding: 15px 45px 15px 45px;
+  text-decoration: none;
+}
+.contactAfterSchool {
+  background-color: #ffffff;
+  padding: 80px 0;
+}
+.contactAfterSchool .contactAfterSchoolWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 860px;
+}
+.contactAfterSchool .contactAfterSchoolWrapper .contactAfterSchoolWrapper_title {
+  font-size: 42px;
+  font-weight: 600;
+  color: #272626;
+}
+.contactAfterSchool .contactAfterSchoolWrapper .contactAfterSchoolWrapper_line {
+  height: 4px;
+  width: 80px;
+  background-color: #0043e8;
+  margin: 16px auto;
+}
+.contactAfterSchool .contactAfterSchoolWrapper .contactAfterSchoolWrapper_text {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #272626;
+  margin-bottom: 60px;
+}
+.contactAfterSchool .contactAfterSchoolWrapper .contactAfterSchoolWrapper_address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+.contactAfterSchool .contactAfterSchoolWrapper .contactAfterSchoolWrapper_address p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #272626;
+  margin-bottom: 0;
+}
+
+.contactMaps iframe {
+  width: 100%;
+}
+
+.contactForm {
+  background-color: #e8f2ff;
+}
+.contactForm .contactFormWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+}
+.contactForm .contactFormWrapper .contactFormWrapper_left {
+  background-color: #284e95;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.contactForm .contactFormWrapper .contactFormWrapper_left .contactFormWrapper_left_country {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+}
+.contactForm .contactFormWrapper .contactFormWrapper_left .contactFormWrapper_left_location,
+.contactForm .contactFormWrapper .contactFormWrapper_left .contactFormWrapper_left_phone,
+.contactForm .contactFormWrapper .contactFormWrapper_left .contactFormWrapper_left_mail {
+  font-size: 12.8px;
+  font-weight: 700;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+.contactForm .contactFormWrapper .contactFormWrapper_left .contactFormWrapper_left_location a,
+.contactForm .contactFormWrapper .contactFormWrapper_left .contactFormWrapper_left_phone a,
+.contactForm .contactFormWrapper .contactFormWrapper_left .contactFormWrapper_left_mail a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.contactForm .contactFormWrapper .contactFormWrapper_left .contactFormWrapper_left_location p,
+.contactForm .contactFormWrapper .contactFormWrapper_left .contactFormWrapper_left_phone p,
+.contactForm .contactFormWrapper .contactFormWrapper_left .contactFormWrapper_left_mail p {
+  margin: 0;
+}
+.contactForm .contactFormWrapper .contactFormWrapper_right {
+  background-color: #ffffff;
+  padding: 40px;
+}
+.contactForm .contactFormWrapper .contactFormWrapper_right .contactFormWrapper_right_title {
+  font-size: 44px;
+  font-weight: 600;
+  color: #272626;
+}
+.contactForm .contactFormWrapper .contactFormWrapper_right .contactFormWrapper_right_subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: #272626;
+}
+
+.blog {
+  margin-top: 80px;
+}
+.blog .blogWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.blog .blogWrapper .blogWrapper_card {
+  width: 400px;
+  background: #eff6ff;
+  box-shadow: 1px 0px 30px 0px rgba(0, 0, 0, 0.75);
+}
+.blog .blogWrapper .blogWrapper_card .blogWrapper_card_thumbnail img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.blog .blogWrapper .blogWrapper_card h2 {
+  padding: 10px;
+}
+.blog .blogWrapper .blogWrapper_card h2 a {
+  text-decoration: none;
+  color: #272626;
+}
+.blog .blogWrapper .blogWrapper_card p {
+  padding: 10px;
+  color: #272626;
+}
+
+.page-not-found {
+  text-align: center;
+  padding: 100px 0;
+}
+.page-not-found .message-404 {
+  font-size: 3.5rem;
+  color: #237194;
+}
+.page-not-found .text-error {
+  color: black;
+  text-decoration: none;
+  letter-spacing: 0.075rem;
+  margin-bottom: 40px;
+}
+.page-not-found .redirect-home a {
+  background-color: #237194;
+  color: black;
+  padding: 19px 0;
+  width: 350px;
+  display: inline-block;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.page-not-found .redirect-home a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.singlePage_title {
+  font-size: 75px;
+  line-height: 95px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.singlePage {
+  margin-top: 40px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  max-width: 1170px;
+}

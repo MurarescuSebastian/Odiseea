@@ -1,0 +1,115 @@
+.contactAfterSchool {
+  background-color: #ffffff;
+  padding: 80px 0;
+
+  .contactAfterSchoolWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 860px;
+
+    .contactAfterSchoolWrapper_title {
+      font-size: 42px;
+      font-weight: 600;
+      color: #272626;
+    }
+    .contactAfterSchoolWrapper_line {
+      height: 4px;
+      width: 80px;
+      background-color: #0043e8;
+      margin: 16px auto;
+    }
+    .contactAfterSchoolWrapper_text {
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      color: #272626;
+      margin-bottom: 60px;
+    }
+    .contactAfterSchoolWrapper_address {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      text-align: center;
+
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #272626;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.contactMaps {
+  iframe {
+    width: 100%;
+  }
+}
+
+.contactForm {
+  background-color: #e8f2ff;
+
+  .contactFormWrapper {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+
+    .contactFormWrapper_left {
+      background-color: $blue;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+
+      .contactFormWrapper_left_country {
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 600;
+      }
+
+      .contactFormWrapper_left_location,
+      .contactFormWrapper_left_phone,
+      .contactFormWrapper_left_mail {
+        font-size: 12.8px;
+        font-weight: 700;
+        color: #ffffff;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        padding-bottom: 10px;
+
+        a {
+          color: #ffffff;
+          text-decoration: none;
+        }
+
+        p {
+          margin: 0;
+        }
+      }
+    }
+
+    .contactFormWrapper_right {
+      background-color: #ffffff;
+      padding: 40px;
+
+      .contactFormWrapper_right_title {
+        font-size: 44px;
+        font-weight: 600;
+        color: #272626;
+      }
+      .contactFormWrapper_right_subtitle {
+        font-size: 16px;
+        font-weight: 400;
+        color: #272626;
+      }
+    }
+  }
+}

@@ -1,0 +1,310 @@
+.homeOptions {
+  padding-top: 40px;
+  .homeOptionsWrapper {
+    background-color: #e8f2ff;
+    padding: 10px 0;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .homeOptionsWrapper_itemGroup {
+      display: flex;
+      flex-direction: row;
+      padding: 20px;
+      gap: 10px;
+
+      .homeOptionsWrapper_itemGroup_itemImg {
+        padding: 8px;
+        background: #fff;
+        border-radius: 50%;
+      }
+      .homeOptionsWrapper_itemGroup_itemText {
+        font-size: 15px;
+        line-height: 21px;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
+
+.homeAfterSchool {
+  .homeAfterSchoolWrapper {
+    .homeAfterSchoolWrapper_title {
+      font-size: 42px;
+      font-weight: 600;
+      color: #272626;
+    }
+    .homeAfterSchoolWrapper_line {
+      height: 4px;
+      width: 80px;
+      background-color: $blue;
+      margin: 16px 0;
+    }
+    .homeAfterSchoolWrapper_contentGroup {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+
+      .homeAfterSchoolWrapper_contentGroup_left {
+        p {
+          margin-bottom: 30px;
+          font-size: 16px;
+          font-weight: 400;
+        }
+        ul {
+          list-style: none;
+          display: flex;
+          flex-direction: column;
+
+          li {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            align-items: center;
+
+            div {
+              font-size: 16px;
+              font-weight: 700;
+              color: #272626;
+              margin: 10px 0;
+            }
+          }
+        }
+      }
+      .homeAfterSchoolWrapper_contentGroup_right {
+        width: 530px;
+        height: 560px;
+      }
+    }
+  }
+}
+
+.homeAboutUs {
+  background-color: $blue;
+  padding: 80px 0;
+  .homeAboutUsWrapper {
+    text-align: center;
+
+    .homeAboutUsWrapper_title {
+      color: #fff;
+      font-size: 44px;
+      font-weight: 600;
+    }
+    .homeAboutUsWrapper_line {
+      height: 4px;
+      width: 80px;
+      background-color: #ffffff;
+      margin: 16px auto;
+    }
+    .homeAboutUsWrapper_link {
+      .homeAboutUsWrapper_btn {
+        border: 2px solid #ffffff;
+        border-radius: 4px;
+        padding: 15px 30px;
+        font-size: 16px;
+        font-weight: 700;
+        background: #fff;
+        color: $blue;
+        margin-bottom: 80px;
+
+        &:hover {
+          background: $blue;
+          color: #ffffff;
+        }
+      }
+    }
+    .homeAboutUsWrapper_text {
+      font-size: 16px;
+      font-weight: 400;
+      color: #ffffff;
+    }
+  }
+}
+
+.homeVideo {
+  background-color: #e8f2ff;
+  padding: 80px 0;
+  .homeVideoWrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.homeWhyUs {
+  background-color: #eff6ff;
+  padding: 80px 0;
+  .homeWhyUsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .homeWhyUsWrapperCards {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 40px;
+
+      .homeWhyUsWrapperCards_left {
+        .homeWhyUsWrapperCards_left_card {
+          padding: 20px;
+          width: 340px;
+          .homeWhyUsWrapperCards_left_card_title {
+            margin-bottom: 20px;
+            color: #272626;
+            font-size: 44px;
+            font-weight: 600;
+          }
+          .homeWhyUsWrapperCards_left_card_text {
+            margin-bottom: 20px;
+            font-size: 16px;
+            font-weight: 400;
+          }
+          .homeWhyUsWrapperCards_left_card_img {
+            margin-bottom: 40px;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      .homeWhyUsWrapperCards_center {
+        .homeWhyUsWrapperCards_center_card {
+          padding: 40px;
+          width: 327px;
+          background: #fff;
+          margin-bottom: 20px;
+
+          .icon_blue_dark {
+            background-color: #0b1e68;
+          }
+          .icon_blue_light {
+            background-color: #0043e8;
+          }
+
+          .homeWhyUsWrapperCards_center_card_icon {
+            padding: 8px;
+            border-radius: 50%;
+            width: 52px;
+            height: 52px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .homeWhyUsWrapperCards_center_card_title {
+            margin-bottom: 20px;
+            color: #272626;
+            font-size: 44px;
+            font-weight: 600;
+          }
+          .homeWhyUsWrapperCards_center_card_text {
+            margin-bottom: 20px;
+            font-size: 16px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}
+
+.homeParents {
+  background-color: $blue;
+  padding: 80px 0;
+
+  .homeParentsWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .homeParentsWrapper_title {
+      font-size: 42px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+    .homeParentsWrapper_line {
+      height: 4px;
+      width: 80px;
+      background-color: #ffffff;
+      margin: 16px auto;
+    }
+
+    .homeParentsWrapper_cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 40px;
+
+      .homeParentsWrapper_cards_card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 280px;
+
+        .homeParentsWrapper_cards_card_text {
+          font-size: 19px;
+          font-weight: 400;
+          color: #ffffff;
+          margin-bottom: 40px;
+        }
+        .homeParentsWrapper_cards_card_icon {
+          margin-bottom: 20px;
+        }
+        .homeParentsWrapper_cards_card_name {
+          font-size: 19px;
+          font-weight: 700;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.homeCallNow {
+  .homeCallNowWrapper {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .homeCallNowWrapper_left {
+      .homeCallNowWrapper_left_title {
+        font-size: 25px;
+        font-weight: 900;
+        color: $blue;
+        font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+      }
+      .homeCallNowWrapper_left_subtitle {
+        font-size: 15px;
+        font-weight: 300;
+        color: $blue;
+        font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+      }
+    }
+
+    .homeCallNowWrapper_right {
+      .homeCallNowWrapper_right_phone {
+        .homeCallNowWrapper_right_phone_link {
+          font-size: 25px;
+          font-weight: 600;
+          text-transform: uppercase;
+          fill: #f5f5f5;
+          color: #f5f5f5;
+          background-color: $blue;
+          border-radius: 42px 42px 42px 42px;
+          padding: 15px 45px 15px 45px;
+          text-decoration: none;
+          span {
+          }
+        }
+      }
+    }
+  }
+}
+
+.homeMaps {
+  iframe {
+    width: 100%;
+  }
+}

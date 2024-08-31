@@ -1,0 +1,17 @@
+@import "./components/colors";
+@import "./components/header";
+@import "./components/programTarife";
+@import "./components/homepage";
+@import "./components/aboutUs";
+@import "./components/contact";
+@import "./components/blog";
+@import "./components/404";
+@import "./components/single";
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  max-width: 1170px;
+}

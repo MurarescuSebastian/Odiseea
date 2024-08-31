@@ -1,0 +1,33 @@
+.page-not-found {
+  text-align: center;
+  padding: 100px 0;
+
+  .message-404 {
+    font-size: 3.5rem;
+    color: #237194;
+  }
+
+  .text-error {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0.075rem;
+    margin-bottom: 40px;
+  }
+
+  .redirect-home {
+    a {
+      background-color: #237194;
+      color: black;
+      padding: 19px 0;
+      width: 350px;
+      display: inline-block;
+      border-radius: 8px;
+      text-decoration: none;
+
+      &:hover {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
